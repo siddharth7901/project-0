@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -8,10 +10,12 @@ body {
   background-position: center;
 }
 .contact-tittle {
-  margin-top: 100px;
-  color: #fff;
+  color:black;
   text-transform: uppercase;
   transition: all 4 ease-in-out;
+ font-family: 'Montserrat',
+ sans-serif;
+
 }
 .contact-tittle h1 {
   font-size: 32px;
@@ -20,11 +24,12 @@ body {
 .contact-tittle h2 {
   font-size: 16px;
 }
-form {
+/* form {
   margin-top: 50px;
   transition: all 4s ease-in-out;
 }
-.form-control {
+*/
+/* .form-control {
   width: 600px;
   background: yellowgreen;
   border: none;
@@ -35,7 +40,8 @@ form {
   margin-bottom: 16px;
 }
 
-input {
+*/
+/* input {
   height: 45px;
 }
 form.submit {
@@ -52,4 +58,17 @@ form.submit {
 form.submit:hover {
   background-color: tomato;
   cursor: pointer;
+}
+
+*/ .form-custom {
+  width: 50%;
+  margin: auto;
+
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
